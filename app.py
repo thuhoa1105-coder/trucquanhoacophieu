@@ -137,7 +137,7 @@ if run:
     ax[1].set_ylabel("Return")
     ax[1].set_xlabel("Date")
     ax[1].legend()
-  ax[1].grid(True)
+    ax[1].grid(True)
 
     plt.tight_layout()
 
@@ -190,4 +190,4 @@ if run:
         else:
             st.success("Có xu hướng đáng kể về mặt thống kê.")
     else:
-        st.warning("Không phát hiện xu hướng có ý nghĩa thống kê (p ≥ 0.05).")
+        st.warning("Không phát hiện xu hướng có ý nghĩa thống kê (p ≥ 0.05)."
